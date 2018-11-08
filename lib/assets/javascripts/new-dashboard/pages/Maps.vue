@@ -28,6 +28,7 @@
 
           <FilterDropdown
             v-if="!selectedMaps.length"
+            section="maps"
             :filter="appliedFilter"
             :order="appliedOrder"
             :metadata="mapsMetadata"
